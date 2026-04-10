@@ -10,6 +10,7 @@ int main()
     for(int i=0; i<n;i++){
     cin>>a[i];
     }
+    sort(a,a+n);
 int key;
 cin>>key;
 int s=0;
